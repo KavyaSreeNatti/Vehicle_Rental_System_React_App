@@ -7,6 +7,10 @@ class AdminService{
     deleteCustomer(customerId) {
         return axiosInstance.delete(`http://localhost:8080/home/customer/delete/${customerId}`);
     }
+
+    getAllCustomers() {
+        return axiosInstance.get('http://localhost:8080/home/AllCustomerDetails');
+    }
 }
 
 export default new AdminService();

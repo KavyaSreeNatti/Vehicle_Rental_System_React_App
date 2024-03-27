@@ -14,6 +14,10 @@ const Layout = () => {
             <li className='nav-item'>
             <Link to="/deletecustomer" className="nav-link">Delete Customer</Link>
             </li>
+
+            <li className='nav-item'>
+            <Link to="/viewcustomer" className="nav-link">View All Customers</Link>
+            </li>
             
           </ul>
         </div>

@@ -3,6 +3,7 @@ import './App.css';
 import AddCustomer from './components/AddCustomer';
 import DeleteCustomerComponent from './components/DeleteCustomer';
 import Layout from './components/Layout';
+import ViewCustomers from './components/ViewCustomers';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path='/' element={<Layout/>}>
           <Route path="addcustomer" element={<AddCustomer />} />
           <Route path='deletecustomer' element={<DeleteCustomerComponent />}/>
+          <Route path='viewcustomer' element={<ViewCustomers />}/>
           </Route>
       </Routes>
     
